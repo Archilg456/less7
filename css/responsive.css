@@ -1,0 +1,138 @@
+
+/* media header 1024/768/480/320px */
+@media (max-width: 1024px)  {
+    .header {
+        width: 45%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 768px)  {
+    .header {
+        width: 45%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 480px)  {
+    .header {
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .burger-bar {
+        margin-left: 60%;
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media (max-width: 320px)  {
+    .burger-bar {
+        width: 50%;
+        display: block;
+}
+.navigation {
+    display: none;
+}
+}
+
+/* midle blocks 1024/768/480/320px*/
+
+@media (max-width: 1024px)  {
+    .down-blocks {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.left-box {
+    width: 30%;
+}
+.colorback {
+    width:70%;
+}
+
+.rigth-box {
+    width: 40%;
+}
+}
+@media (max-width: 768px)  {
+    .down-blocks {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.left-box {
+    width: 100%;
+}
+.left-box h2 p {
+    
+}
+.colorback {
+    width:80%;
+}
+
+.rigth-box {
+    margin-top: 24px;
+    width: 100%;
+}
+}
+@media (max-width: 480px)  {
+    .down-blocks {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.left-box {
+    width: 100%;
+}
+.colorback {
+    width:80%;
+}
+
+.rigth-box {
+    display: none;
+}
+}
+@media (max-width: 320px)  {
+    .down-blocks {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.left-box {
+    width: 100%;
+}
+.colorback {
+    width:80%;
+}
+
+.rigth-box {
+    display: none;
+}
+}
+/* media section 2 1024/768/480/320px */
+
+@media (max-width: 480px) {
+
+.container-2{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .text-1 {
+    margin-top: 20px;
+    }
+    
+}
+
